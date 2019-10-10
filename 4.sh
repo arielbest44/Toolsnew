@@ -77,8 +77,9 @@ echo $g"6. Profile Guard Facebook "
 echo $g"∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
 echo $r"7. Dark Fb Versi 2.1"
 echo $g"∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
-echo $b"0. Keluar"
-echo $g
+echo $b"8. Dark Fb Mantap"
+echo $g"∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞"
+echo $b"0. keluar"
 read -p " Pilih No : " pil;
 
 case $pil in
@@ -137,6 +138,14 @@ toilet -f standard " Dark FB " -F gay
 git clone https://github.com/arielbest44/1.9
 cd 1.9
 python2 xz.py
+
+;;
+
+8) clear
+toilet -f big " ArielBest " -F gay
+git https://github.com/novalattasya/hackfb
+cd hackfb
+python2 hackfb.py
 
 ;;
 
